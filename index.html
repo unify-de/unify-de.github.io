@@ -4,24 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unify Desktop Environment</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
 </head>
 <body>
 
-    <header>
-        <h1>Unify Desktop Environment</h1>
-        <p>Modern. Efficient. Unified.</p>
+    <header class="header">
+        <div class="container flex header-content">
+            <a class="logo" href="/">Unify</a>
+            <nav class="nav">
+                <a href="#features">Features</a>
+                <a href="#screenshots">Screenshots</a>
+                <a href="#download">Download</a>
+                <a href="#docs">Docs</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>Welcome</h2>
-            <p>This site is under active construction.</p>
-        </section>
-    </main>
+    <section class="hero section">
+        <div class="container center">
+            <h1>Unify Desktop Environment</h1>
+            <p>The modern successor to the Unity experience — rebuilt for Wayland.</p>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; Unify Project</p>
+    <section id="features" class="section">
+        <div class="container">
+            <h2>Features</h2>
+            <p>Coming soon.</p>
+        </div>
+    </section>
+
+    <section id="screenshots" class="section">
+        <div class="container">
+            <h2>Screenshots</h2>
+            <p>Coming soon.</p>
+        </div>
+    </section>
+
+    <section id="download" class="section">
+        <div class="container">
+            <h2>Download</h2>
+            <p>ISO and packages will be provided here.</p>
+        </div>
+    </section>
+
+    <section id="docs" class="section">
+        <div class="container">
+            <h2>Documentation</h2>
+            <p>Links to guides, developer docs, and API specs.</p>
+        </div>
+    </section>
+
+    <footer class="section center">
+        <p>© Unify Desktop Environment</p>
     </footer>
 
 </body>
